@@ -2,7 +2,7 @@ import { CiStar } from "react-icons/ci";
 import { MdStars } from "react-icons/md";
 import ratingimage from "../../assets/ratingsimage.png";
 import rightLogo from "../../assets/rightimage.png";
-// import companyLogo from "../../assets/Logos.png";
+import companyLogo from "../../assets/AllCompaniesImages.png";
 import backgroundimage from "../../assets/__before.png";
 import { TiSocialYoutubeCircular } from "react-icons/ti";
 import ServicesSection from "./ServicesSection";
@@ -81,11 +81,11 @@ const Home = () => {
         <h1 className="text-lg font-bold text-gray-800 mb-4">
           Trusted By Over 100+ Startups and Freelance Businesses
         </h1>
-        {/* <img
+        <img
           src={companyLogo}
           alt="Company Logos"
           className="mx-auto w-full    max-w-4xl"
-        /> */}
+        />
       </div>
 
       <ServicesSection />
